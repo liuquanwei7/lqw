@@ -23,6 +23,11 @@ public class TestController {
 	@Autowired
 	DepartmentMapper mapper;
 
+	/**
+	 * test
+	 * @param id
+	 * @return
+	 */
 	@GetMapping("/dept/{id}")
 	public Result<GetRes> getDepartment(@PathVariable Integer id) {
 		Department data = mapper.getDeptById(id);
