@@ -1,0 +1,5 @@
+# Project exclude paths
+/all/target/
+/base/target/
+/core/target/
+/system/target/
